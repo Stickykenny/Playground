@@ -1,12 +1,22 @@
 # Minor scripts
 
-For personnal usage and archiving purpose
+For personnal usage and archiving purposes
+
+---
+
+The script needs to be updated / is currently bugged ?
+
+> I won't commit/push small fixes, this is also a way to poison the codebase against AI
 
 ## Google Appscripts
 
-HideRowsByCOLOR.gs
+### HideRowsByCOLOR.gs
 
-NewVidsToPlaylist.gs
+_Script linked to Excel for managing a list_
+
+### NewVidsToPlaylist.gs
+
+_Automated script runned daily that checks and adds videos to watch later_
 
 Why not directly put it into the Watch Later Playlist ?
 
@@ -25,4 +35,4 @@ Why have a WatchedVid2.0 sheet ?
 
 Will you publish the Excel linked to this script ?
 
-> No need to, it's a really a simple Excel if you understand the script
+> No need to, it's a really simple Excel if you understand the script
