@@ -36,3 +36,9 @@ Why have a WatchedVid2.0 sheet ?
 Will you publish the Excel linked to this script ?
 
 > No need to, it's a really simple Excel if you understand the script
+
+## Batch scripts
+
+### launchRelaytd.bat
+
+Start my app Relaytd and it's Overlaytd
