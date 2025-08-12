@@ -7,9 +7,14 @@ Those can be grown into full projects (in which case, I will move them into thei
 
 ### Current uploaded : 
 - RelayTd
-  
     Springboot/Java/Angular
-    
+
+- Python Discord Bot
+
+- Scripts
+	Google apps scripts 
+		Utility for google sheets
+		Automating daily watch later youtube playlist
     
 ### Not uploaded : 
 - UNNAMED
@@ -18,6 +23,4 @@ Those can be grown into full projects (in which case, I will move them into thei
     P5 - React
 	
 - Scripts
-	Google apps scripts 
-		Utility for google sheets
-		Automating daily watch later youtube playlist
+  - Custom file remover/crypting with way to decrypt
