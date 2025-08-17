@@ -13,7 +13,12 @@ def setup_logger():
         The logger
     """
 
-    os.makedirs("logs", exist_ok=True)
+    # Get current date parts
+    now = datetime.now()
+    current_year = str(now.year)
+    current_month = f"{now.month:02d}"
+    log_dir = os.path.join("logs", current_year, current_month)
+    os.makedirs(log_dir, exist_ok=True)
 
     # Set parameters and default values of logger
     logger.setLevel(logging.DEBUG)
@@ -21,8 +26,8 @@ def setup_logger():
         '%(asctime)s - %(name)s - %(levelname)s - %(message)s')
 
     # Create a File Handler to log into a file
-    filename = "logs"+os.sep + datetime.now().strftime('logs_%Y_%m_%d_%H_%M.log')
-    file_handler = logging.FileHandler(filename)
+    filename = log_dir + os.sep + now.strftime('logs_%Y_%m_%d.log')
+    file_handler = logging.FileHandler(filename, mode="a", encoding='utf-8')
     file_handler.setFormatter(formatter)
 
     # Create a Stream Handler for stream's output on console
@@ -34,12 +39,9 @@ def setup_logger():
     logger.addHandler(file_handler)
     logger.addHandler(stream_handler)
 
-
+    # Add discord logger
     discord_logger = logging.getLogger("discord")
     discord_logger.setLevel(logging.DEBUG)
     discord_logger.addHandler(stream_handler)
-    
-     # If you want to silence the default root logger output
-    logging.getLogger().handlers.clear()
 
     return logger

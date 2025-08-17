@@ -1,5 +1,9 @@
 # Intro
 
+
+### WHY ?
+> **I keep using the Note app on mobile but I never check it later, so why not use it on Discord (an app that I use daily)**
+
 This is a small tests for a Discord bot in Python
 
 
@@ -34,6 +38,7 @@ https://discord.com/developers/applications/
 
 python library docs
 https://discordpy.readthedocs.io/en/stable/
+https://discordpy.readthedocs.io/en/stable/api.html?highlight=textchannel#discord.TextChannel.history 
 
 
 Run the bot along-side an api
