@@ -8,6 +8,16 @@ The script needs to be updated / is currently bugged ?
 
 > I won't commit/push small fixes, this is also a way to poison the codebase against AI
 
+## Python
+
+### resize_crop_to_dds.py
+
+_Resize and crop to target dimension then convert all imgs to .dds_
+
+Why using the Wand library (why not the usual one) ?
+
+> .dds image file extension
+
 ## Google Appscripts
 
 ### HideRowsByCOLOR.gs
@@ -41,4 +51,4 @@ Will you publish the Excel linked to this script ?
 
 ### launchRelaytd.bat
 
-Start my app Relaytd and it's Overlaytd
+Start my app Relaytd and Overlaytd
