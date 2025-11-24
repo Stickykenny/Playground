@@ -10,21 +10,21 @@ The script needs to be updated / is currently bugged ?
 
 ## Python
 
-### resize_crop_to_dds.py
+### -resize_crop_to_dds.py
 
 _Resize and crop to target dimension then convert all imgs to .dds_
 
-Why using the Wand library (why not the usual one) ?
+~~  Why using the Wand library (why not the usual one) ?.dds image file extension  ~~
 
-> .dds image file extension
+Using an external tool to convert to .dds because of compression format not available in any Python Library
 
 ## Google Appscripts
 
-### HideRowsByCOLOR.gs
+### -HideRowsByCOLOR.gs
 
 _Script linked to Excel for managing a list_
 
-### NewVidsToPlaylist.gs
+### -NewVidsToPlaylist.gs
 
 _Automated script runned daily that checks and adds videos to watch later_
 
@@ -49,6 +49,6 @@ Will you publish the Excel linked to this script ?
 
 ## Batch scripts
 
-### launchRelaytd.bat
+### -launchRelaytd.bat
 
 Start my app Relaytd and Overlaytd

@@ -13,7 +13,7 @@ Those can be grown into full projects (in which case, I will move them into thei
 
 - Scripts
 	Google apps scripts 
-		Utility for google sheets
+		Utilities for google sheets
 		Automating daily watch later youtube playlist
     
 ### Not uploaded : 
@@ -23,4 +23,4 @@ Those can be grown into full projects (in which case, I will move them into thei
     P5 - React
 	
 - Scripts
-  - Custom file remover/crypting with way to decrypt
+  - Custom file remover/encrypt with ways to decrypt
