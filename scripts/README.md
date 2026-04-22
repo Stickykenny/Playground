@@ -52,3 +52,7 @@ Will you publish the Excel linked to this script ?
 ### -launchRelaytd.bat
 
 Start my app Relaytd and Overlaytd
+
+### -startDevops.bat
+
+Start SSH agent, docker, minikube then Jenkins
